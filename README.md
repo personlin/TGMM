@@ -1,2 +1,2 @@
-# TNGA
-Taiwan Next Generation Attenuation Relationships
+# TNGA GMPE and Database
+Taiwan Next Generation Attenuation Relationships and Ground-Motion Database
