@@ -1,2 +1,2 @@
-# TNGA GMPE and Database
-Taiwan Next Generation Attenuation Relationships and Ground-Motion Database
+# Taiwan Ground Motion Model (TGMM) and Database
+Taiwan Ground Motion Model and Ground-Motion Database
