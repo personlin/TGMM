@@ -40,6 +40,7 @@
 |Ztor.ccld             |Depth to top of fault rupture                             |距斷層破裂面頂端深度                 |km              |Brain模擬計算段層面距離資料  | 
 |Fault.type            |mechanism base on rake angle                              |斷層機制                            |                |                           | 
 |Intra.Inter.Flag      |earthquake type for subduction EQ from NGA database       |隱沒帶地震類型(NGA-Sub)              |                |NGA資料庫                  |
+|eq.type               |earthquake type                                           |地震類型                             |               |                            |
 |Strike.NGA            |strike                                                    |走向                                |degree          |NGA資料庫                  |
 |Dip.NGA               |dip                                                       |傾角                                |degree          |NGA資料庫                  |
 |Rake.NGA              |rake                                                      |滑移角                              |degree          |NGA資料庫                  |
