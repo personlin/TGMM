@@ -34,7 +34,7 @@
 |MW.sugg               |suggest moment magnitude                                  |建議之地震矩規模                    |                |SSHAC SSC 地震目錄資料     | 
 |M_type                |magnitude type                                            |地震規模類型(原始地震目錄)           |                |SSHAC SSC 地震目錄資料     | 
 |M_convert_tag         |converted magnitude indicator (N=not)                     |有無轉換之規模(N表示沒有)             |                |SSHAC SSC 地震目錄資料     | 
-|Mainshock_ID          |mainshock id                                              |主震ID，標示主餘震序列ID(主震為0，若是前震或餘震則標示為該地震序列的主震ID)，ID編號為SSC地震目錄之地震ID(ID.eqcatalog)|                |SSHAC SSC 地震目錄資料     |
+|Mainshock_ID          |mainshock id                                              |主震ID，標示主餘震序列ID<br>(主震為0，若是前震或餘震<br>則標示為該地震序列的主震ID)，<br>ID編號為SSC地震目錄之地震ID<br>(ID.eqcatalog)|                |SSHAC SSC 地震目錄資料     |
 |Ztor.NGA              |Depth to top of fault rupture from NGA database           |距斷層破裂面頂端深度                 |km              |NGA資料庫                  | 
 |Ztor.ccld             |Depth to top of fault rupture                             |距斷層破裂面頂端深度                 |km              |Brain模擬計算段層面距離資料  | 
 |Fault.type            |mechanism base on rake angle(SS=Strike‐Slip, N=Normal, R=Reverse, RO=Reverse‐Oblique, NO=Normal‐Oblique)|斷層機制                            |                |                           | 
