@@ -13,7 +13,6 @@
 |Lon_X.NGA             |epicenter longitude from NGA database                     |震央經度(NGA)                      |degree          | NGA資料庫                  | 
 |Lat_Y.NGA             |epicenter latitude from NGA database                      |震央緯度(NGA)                      |degree          | NGA資料庫                  |
 |Depth.NGA             |hypocenter depth from NGA database                        |震源深度(NGA)                      |km              | NGA資料庫                  |
-|Hyp.Author            |hypocenter location source from NGA database              |震源位置來源(NGA)                  |                 | NGA資料庫                  | 
 |Lon_X.Wu.ccld         |epicenter longitude by Prof.Wu                            |震央經度(吳逸民教授)                |                |Brain模擬計算段層面距離資料    |
 |Lat_Y.Wu.ccld         |epicenter latitude by Prof.Wu                             |震央緯度(吳逸民教授)                |                |Brain模擬計算段層面距離資料    |
 |Depth.Wu.ccld         |hypocenter depth by Prof.Wu                               |震源深度(吳逸民教授)                |km              |Brain模擬計算段層面距離資料    | 
@@ -35,10 +34,10 @@
 |MW.sugg               |suggest moment magnitude                                  |建議之地震矩規模                    |                |SSHAC SSC 地震目錄資料     | 
 |M_type                |magnitude type                                            |地震規模類型(原始地震目錄)           |                |SSHAC SSC 地震目錄資料     | 
 |M_convert_tag         |converted magnitude indicator (N=not)                     |有無轉換之規模(N表示沒有)             |                |SSHAC SSC 地震目錄資料     | 
-|Mainshock_ID          |mainshock id                                              |主震ID                              |                |SSHAC SSC 地震目錄資料     |
+|Mainshock_ID          |mainshock id                                              |主震ID，標示主餘震序列ID(主震為0，若是前震或餘震則標示為該地震序列的主震ID)，ID編號為SSC地震目錄之地震ID(ID.eqcatalog)|                |SSHAC SSC 地震目錄資料     |
 |Ztor.NGA              |Depth to top of fault rupture from NGA database           |距斷層破裂面頂端深度                 |km              |NGA資料庫                  | 
 |Ztor.ccld             |Depth to top of fault rupture                             |距斷層破裂面頂端深度                 |km              |Brain模擬計算段層面距離資料  | 
-|Fault.type            |mechanism base on rake angle(0=SS, 1=NM, 2=RV, 3=RO, 4=NM)|斷層機制                            |                |                           | 
+|Fault.type            |mechanism base on rake angle(SS=Strike‐Slip, N=Normal, R=Reverse, RO=Reverse‐Oblique, NO=Normal‐Oblique)|斷層機制                            |                |                           | 
 |Intra.Inter.Flag      |earthquake type for subduction EQ from NGA database       |隱沒帶地震類型(NGA-Sub)              |                |NGA資料庫                  |
 |eq.type               |earthquake type                                           |地震類型                             |               |                            |
 |Strike.NGA            |strike                                                    |走向                                |degree          |NGA資料庫                  |
@@ -59,14 +58,18 @@
 |STA_Lat_Y             |station latitude                                          |測站緯度                            |                |NCREE Dr.Kuo               |
 |STA_Elevation         |station elevation                                         |測站高程                            |m               |NCREE Dr.Kuo               | 
 |Vs30_sugg             |suggest Vs30                                              |Vs30                                |m/s             |NCREE Dr.Kuo               | 
-|Vs30_ref              |reference of Vs30                                         |Vs30出處                            |                |NCREE Dr.Kuo               | 
+|Vs30_ref              |reference of Vs30(K12: Kuo et al. (2012) and EGDT (measured Vs30), K16: Kuo et al. (2016) (measured Vs30), LT08: Lee and Tsai (2008) (estimated Vs30), AW09: Allen and Wald (2009) (estimated Vs30), na: not available)|Vs30出處                            |                |NCREE Dr.Kuo               | 
 |Z1.0_sugg             |Z1.0                                                      |Z1.0                                |m               |NCREE Dr.Kuo               |
-|Z1.0_ref              |reference of Z1.0                                         |Z1.0出處                            |                |NCREE Dr.Kuo               | 
+|Z1.0_ref              |reference of Z1.0(a: microtremor array method (Kuo et al., 2016), e: EGDT (Kuo et al., 2012), r: Receiver Function, h: HVSR, inf: Inferred from relationship of Vs30 and Z1.0 in Taiwan, na: not available)|Z1.0出處                            |                |NCREE Dr.Kuo               | 
 |STA_Lat_Y.NGA         |station latitude from NGA database                        |測站緯度 (NGA)                      |                | NGA資料庫                 |
 |STA_Lon_X.NGA         |station longitude from NGA database                       |測站經度 (NGA)                      |                | NGA資料庫                 |
 |STA_Lat_Y.ccld        |station latitude from CCLD                                |測站緯度 (CCLD)                     |degree          |Brain模擬計算段層面距離資料| 
 |STA_Lon_X.ccld        |station longitude from CCLD                               |測站經度 (CCLD)                     |degree          |Brain模擬計算段層面距離資料| 
+|EpiD.CWB              |epicentral distance (by CWB hypocenter location)          |震央距離                            |km              |Lon_X.CWB,Lat_Y.CWB  | 
+|EpiD.WU               |epicentral distance (by Prof.Wu's relocatoin hypocenter location)|震央距離                     |km              |Lon_X.WU,Lat_Y.WU    | 
 |EpiD.NGA              |epicentral distance from NGA database                     |震央距離                            |km              | NGA資料庫           | 
+|HypD.CWB              |hypocentral distance (by CWB hypocenter location)         |震源距離                            |km              |Lon_X.CWB,Lat_Y.CWB,Depth.CWB|
+|HypD.WU               |hypocentral distance (by Prof.Wu's relocatoin hypocenter location)|震源距離                    |km              |Lon_X.WU,Lat_Y.WU,Depth.WU|
 |HypD.NGA              |hypocentral distance from NGA database                    |震源距離                            |km              | NGA資料庫          |
 |Rrup.NGA              |Closest distance to fault rupture from NGA database       |距斷層面最短距離                     |km              | NGA資料庫           |
 |Rjb.NGA               |Joyner and Boore distance from NGA database               |距斷層地表投影面最短距離              |km              | NGA資料庫           | 
@@ -77,7 +80,7 @@
 |Rjb.ccld              |Joyner and Boore distance                                 |距斷層地表投影面最短距離              |km              |Brain模擬計算段層面距離資料| 
 |Rseis.ccld            |Campbell distance                                         |距孕震深度最短距離                   |km              | Brain模擬計算段層面距離資料| 
 |Rx.ccld               |Horizontal distance from top edge of rupture. perpendicular to the fault strike.| 測站垂直斷層走向方向的水平距離 |km |Brain模擬計算段層面距離資料|
-|FW.HW.Indicator       |hanging-wall footwall indicator                           |斷層上下盤指標                       |                |NGA資料庫                  |
+|FW.HW.Indicator       |hanging-wall footwall indicator(hw=hanging wall region, fw= footwall region, nu=neutral region, na: not applicable as fault dip is greater than 70, NA= no data.)|斷層上下盤指標                       |                |NGA資料庫                  |
 |HP_H1                 |High-pass corner frequency for component H1               |高通濾波頻率-H1分量                  |Hz              |                           |
 |HP_H2                 |High-pass corner frequency for component H2               |高通濾波頻率-H2分量                  |Hz              |                           |
 |HP_Z                  |High-pass corner frequency for component Z                |高通濾波頻率- Z分量                  |Hz              |                           |
