@@ -38,7 +38,7 @@
 |Mainshock_ID          |mainshock id                                              |主震ID                              |                |SSHAC SSC 地震目錄資料     |
 |Ztor.NGA              |Depth to top of fault rupture from NGA database           |距斷層破裂面頂端深度                 |km              |NGA資料庫                  | 
 |Ztor.ccld             |Depth to top of fault rupture                             |距斷層破裂面頂端深度                 |km              |Brain模擬計算段層面距離資料  | 
-|Fault.type            |mechanism base on rake angle                              |斷層機制                            |                |                           | 
+|Fault.type            |mechanism base on rake angle(0=SS, 1=NM, 2=RV, 3=RO, 4=NM)|斷層機制                            |                |                           | 
 |Intra.Inter.Flag      |earthquake type for subduction EQ from NGA database       |隱沒帶地震類型(NGA-Sub)              |                |NGA資料庫                  |
 |eq.type               |earthquake type                                           |地震類型                             |               |                            |
 |Strike.NGA            |strike                                                    |走向                                |degree          |NGA資料庫                  |
