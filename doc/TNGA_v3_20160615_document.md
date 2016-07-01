@@ -22,8 +22,8 @@
 |Lon_X.WU              |epicenter longitude by Prof.Wu                            |震央經度(吳逸民教授)                |                |SSHAC SSC 地震目錄資料     | 
 |Lat_Y.WU              |epicenter latitude by Prof.Wu                             |震央緯度(吳逸民教授)                |                |SSHAC SSC 地震目錄資料     | 
 |Depth.WU              |hypocenter depth by Prof.Wu                               |震源深度(吳逸民教授)                |km              |SSHAC SSC 地震目錄資料     | 
-|Magnitude             |magnitude from NGA database                               |地震規模(NGA)                      |                |NGA資料庫                 | 
-|Magnitude.Type        |magnitude type from NGA database                          |地震規模類型(NGA)                   |               |NGA資料庫                 | 
+|Magnitude             |magnitude from database (NGA, TNGA)                       |地震規模(NGA, TNGA)                 |                |NGA, TNGA 資料庫           | 
+|Magnitude.Type        |magnitude type from database (NGA, TNGA)                  |地震規模類型(NGA, TNGA)             |               |NGA, TNGA 資料庫           | 
 |M.Author              |magnitude author infomation from NGA database             |地震規模來源(NGA)                   |                |NGA資料庫                | 
 |ML.CWB                |Local magnitude by CWB                                    |芮氏規模(氣象局)                    |                |SSHAC SSC 地震目錄資料     | 
 |ML.WU                 |Local magnitude by Prof.Wu                                |芮氏規模(吳逸民教授)                |                |SSHAC SSC 地震目錄資料     |
