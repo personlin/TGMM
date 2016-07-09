@@ -1,3 +1,7 @@
+# Document of the version 3 (20160615) flatfile
+
+## Columns for IDs
+
 |Column_name           |Description_en                                            |說明                                |單位(unit)      |Note                       |    
 |:---------------------|:---------------------------------------------------------|:----------------------------------|:---------------|---------------------------|
 |file.id               |data id (file from CWB)                                   |資料ID(氣象局檔名)                   |                |SSHAC SSC 地震目錄資料      | 
@@ -10,6 +14,11 @@
 |EQID.CSN              |CSN eq id from SSC earthquake catalog                     |CNS地震ID (SSC地震目錄)             |                |SSHAC SSC 地震目錄資料      | 
 |RSN.NGAWest2          |Record series number from NGA-West2 database              |記錄編號 (NGA-West2)                |               | NGA資料庫                  | 
 |RSN.NGASUB            |Record series number from NGA-Sub database                |記錄編號 (NGA-Sub)                  |               | NGA資料庫                  | 
+
+# Columns for Earthquake related information
+
+|Column_name           |Description_en                                            |說明                                |單位(unit)      |Note                       |    
+|:---------------------|:---------------------------------------------------------|:----------------------------------|:---------------|---------------------------|
 |Lon_X.NGA             |epicenter longitude from NGA database                     |震央經度(NGA)                      |degree          | NGA資料庫                  | 
 |Lat_Y.NGA             |epicenter latitude from NGA database                      |震央緯度(NGA)                      |degree          | NGA資料庫                  |
 |Depth.NGA             |hypocenter depth from NGA database                        |震源深度(NGA)                      |km              | NGA資料庫                  |
@@ -53,6 +62,11 @@
 |Dip2                  |dip                                                       |傾角                                |degree          |SSHAC SSC 地震目錄資料     | 
 |Rake2                 |rake                                                      |滑移角                              |degree          |SSHAC SSC 地震目錄資料     |
 |fault_plane           |the selection of two fault plane (WU)                     |震源機制解中選擇的斷層面              |                 |SSHAC SSC 地震目錄資料     |
+
+## Columns for Station related information
+
+|Column_name           |Description_en                                            |說明                                |單位(unit)      |Note                       |    
+|:---------------------|:---------------------------------------------------------|:----------------------------------|:---------------|---------------------------|
 |STA_ID                |station id                                                |測站ID                              |                |                           | 
 |STA_Lon_X             |station longitude                                         |測站經度                            |                |NCREE Dr.Kuo               | 
 |STA_Lat_Y             |station latitude                                          |測站緯度                            |                |NCREE Dr.Kuo               |
@@ -65,6 +79,11 @@
 |STA_Lon_X.NGA         |station longitude from NGA database                       |測站經度 (NGA)                      |                | NGA資料庫                 |
 |STA_Lat_Y.ccld        |station latitude from CCLD                                |測站緯度 (CCLD)                     |degree          |Brain模擬計算段層面距離資料| 
 |STA_Lon_X.ccld        |station longitude from CCLD                               |測站經度 (CCLD)                     |degree          |Brain模擬計算段層面距離資料| 
+
+# Columns for Distance metrics
+
+|Column_name           |Description_en                                            |說明                                |單位(unit)      |Note                       |    
+|:---------------------|:---------------------------------------------------------|:----------------------------------|:---------------|---------------------------|
 |EpiD.CWB              |epicentral distance (by CWB hypocenter location)          |震央距離                            |km              |Lon_X.CWB,Lat_Y.CWB  | 
 |EpiD.WU               |epicentral distance (by Prof.Wu's relocatoin hypocenter location)|震央距離                     |km              |Lon_X.WU,Lat_Y.WU    | 
 |EpiD.NGA              |epicentral distance from NGA database                     |震央距離                            |km              | NGA資料庫           | 
@@ -81,6 +100,11 @@
 |Rseis.ccld            |Campbell distance                                         |距孕震深度最短距離                   |km              | Brain模擬計算段層面距離資料| 
 |Rx.ccld               |Horizontal distance from top edge of rupture. perpendicular to the fault strike.| 測站垂直斷層走向方向的水平距離 |km |Brain模擬計算段層面距離資料|
 |FW.HW.Indicator       |hanging-wall footwall indicator(hw=hanging wall region, fw= footwall region, nu=neutral region, na: not applicable as fault dip is greater than 70, NA= no data.)|斷層上下盤指標                       |                |NGA資料庫                  |
+
+## Columns for Record process
+
+|Column_name           |Description_en                                            |說明                                |單位(unit)      |Note                       |    
+|:---------------------|:---------------------------------------------------------|:----------------------------------|:---------------|---------------------------|
 |HP_H1                 |High-pass corner frequency for component H1               |高通濾波頻率-H1分量                  |Hz              |                           |
 |HP_H2                 |High-pass corner frequency for component H2               |高通濾波頻率-H2分量                  |Hz              |                           |
 |HP_Z                  |High-pass corner frequency for component Z                |高通濾波頻率- Z分量                  |Hz              |                           |
@@ -91,6 +115,11 @@
 |Lowest_Usable_Freq_H2 |lowest usable frequency H2                                |最小可用頻率-水平分量2                |Hz             |NGA資料庫                   |
 |Lowest_Usable_Freq_Ave|lowest usable frequencty avg (largest of H1,H2))          |最小可用頻率-兩水平量最大值            |Hz             | NGA資料庫                 |
 |usable_period_H       |longest usable period                                     |最長可用週期                         |sec            |                           |
+
+# Columns for Ground motion values
+
+|Column_name           |Description_en                                            |說明                                |單位(unit)      |Note                       |    
+|:---------------------|:---------------------------------------------------------|:----------------------------------|:---------------|---------------------------|
 |PGA                   |PGA                                                       |PGA                                 |g              |                           |
 |PGV                   |PGV                                                       |PGV                                 |cm/s           |                           | 
 |PGD                   |PGD                                                       |PGD                                 |cm             |                           | 
