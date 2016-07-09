@@ -46,7 +46,7 @@
 |Mainshock_ID          |mainshock id                                              |主震ID，標示主餘震序列ID<br>(主震為0，若是前震或餘震<br>則標示為該地震序列的主震ID)，<br>ID編號為SSC地震目錄之地震ID<br>(ID.eqcatalog)|                |SSHAC SSC 地震目錄資料     |
 |Ztor.NGA              |Depth to top of fault rupture from NGA database           |距斷層破裂面頂端深度                 |km              |NGA資料庫                  | 
 |Ztor.ccld             |Depth to top of fault rupture                             |距斷層破裂面頂端深度                 |km              |Brain模擬計算段層面距離資料  | 
-|Fault.type            |mechanism base on rake angle(SS=Strike‐Slip, N=Normal, R=Reverse, RO=Reverse‐Oblique, NO=Normal‐Oblique)|斷層機制                            |                |                           | 
+|Fault.type            |mechanism base on rake angle<br>SS=Strike‐Slip,<br>N=Normal,<br>R=Reverse,<br>RO=Reverse‐Oblique,<br>NO=Normal‐Oblique|斷層機制                            |                |                           | 
 |Intra.Inter.Flag      |earthquake type for subduction EQ from NGA database       |隱沒帶地震類型(NGA-Sub)              |                |NGA資料庫                  |
 |eq.type               |earthquake type                                           |地震類型                             |               |                            |
 |Strike.NGA            |strike                                                    |走向                                |degree          |NGA資料庫                  |
@@ -72,9 +72,9 @@
 |STA_Lat_Y             |station latitude                                          |測站緯度                            |                |NCREE Dr.Kuo               |
 |STA_Elevation         |station elevation                                         |測站高程                            |m               |NCREE Dr.Kuo               | 
 |Vs30_sugg             |suggest Vs30                                              |Vs30                                |m/s             |NCREE Dr.Kuo               | 
-|Vs30_ref              |reference of Vs30(K12: Kuo et al. (2012) and EGDT (measured Vs30), K16: Kuo et al. (2016) (measured Vs30), LT08: Lee and Tsai (2008) (estimated Vs30), AW09: Allen and Wald (2009) (estimated Vs30), na: not available)|Vs30出處                            |                |NCREE Dr.Kuo               | 
+|Vs30_ref              |reference of Vs30:<br>K12: Kuo et al. (2012) and EGDT (measured Vs30),<br>K16: Kuo et al. (2016) (measured Vs30),<br>LT08: Lee and Tsai (2008) (estimated Vs30),<br>AW09: Allen and Wald (2009) (estimated Vs30),<br>na: not available|Vs30出處                            |                |NCREE Dr.Kuo               | 
 |Z1.0_sugg             |Z1.0                                                      |Z1.0                                |m               |NCREE Dr.Kuo               |
-|Z1.0_ref              |reference of Z1.0(a: microtremor array method (Kuo et al., 2016), e: EGDT (Kuo et al., 2012), r: Receiver Function, h: HVSR, inf: Inferred from relationship of Vs30 and Z1.0 in Taiwan, na: not available)|Z1.0出處                            |                |NCREE Dr.Kuo               | 
+|Z1.0_ref              |reference of Z1.0:<br>a: microtremor array method (Kuo et al., 2016),<br>e: EGDT (Kuo et al., 2012),<br>r: Receiver Function,<br>h: HVSR,<br>inf: Inferred from relationship of Vs30 and Z1.0 in Taiwan,<br>na: not available|Z1.0出處                            |                |NCREE Dr.Kuo               | 
 |STA_Lat_Y.NGA         |station latitude from NGA database                        |測站緯度 (NGA)                      |                | NGA資料庫                 |
 |STA_Lon_X.NGA         |station longitude from NGA database                       |測站經度 (NGA)                      |                | NGA資料庫                 |
 |STA_Lat_Y.ccld        |station latitude from CCLD                                |測站緯度 (CCLD)                     |degree          |Brain模擬計算段層面距離資料| 
