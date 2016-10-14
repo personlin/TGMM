@@ -4,6 +4,16 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## TNGA_v3_20161014
+
+* add instrument type from sgm.index to database
+
+|Instrument|
+|:----|
+|A800 |
+|A800 |
+|A800 |
+
 ## TNGA_v3_20161013
 
 * add raw PGA from sgm.index to database
