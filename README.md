@@ -4,15 +4,20 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+##TNGA_v3_20161014a
+
+* rename and reorder column, remove some unused columns.
+  see [TNGA_v3_20161014_document.md](doc/TNGA_v3_20161014_document.md) for newest column documnetation.
+
 ## TNGA_v3_20161014
 
 * add instrument type from sgm.index to database
 
-|Instrument|
-|:----|
-|A800 |
-|A800 |
-|A800 |
+| Instrument |
+| :--------- |
+| A800       |
+| A800       |
+| A800       |
 
 ## TNGA_v3_20161013
 
