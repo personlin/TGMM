@@ -76,21 +76,21 @@
 
 ## Columns for Station related information
 
-| Column_name   | Description_en                           | 說明         | 單位(unit) | Note         |
-| :------------ | :--------------------------------------- | :--------- | :------- | ------------ |
-| STA_ID        | station id                               | 測站ID       |          |              |
-| STA_Lon_X     | station longitude                        | 測站經度       |          | NCREE Dr.Kuo |
-| STA_Lat_Y     | station latitude                         | 測站緯度       |          | NCREE Dr.Kuo |
-| STA_Elevation | station elevation                        | 測站高程       | m        | NCREE Dr.Kuo |
-| Vs30_sugg     | suggest Vs30                             | Vs30       | m/s      | NCREE Dr.Kuo |
-| Vs30_ref      | reference of Vs30:<br>K12: Kuo et al. (2012) and EGDT (measured Vs30),<br>K16: Kuo et al. (2016) (measured Vs30),<br>LT08: Lee and Tsai (2008) (estimated Vs30),<br>AW09: Allen and Wald (2009) (estimated Vs30),<br>na: not available | Vs30出處     |          | NCREE Dr.Kuo |
-| Vs30_class    |                                          |            |          |              |
-| Z1.0_sugg     | Z1.0                                     | Z1.0       | m        | NCREE Dr.Kuo |
-| Z1.0_ref      | reference of Z1.0:<br>a: microtremor array method (Kuo et al., 2016),<br>e: EGDT (Kuo et al., 2012),<br>r: Receiver Function,<br>h: HVSR,<br>inf: Inferred from relationship of Vs30 and Z1.0 in Taiwan,<br>na: not available | Z1.0出處     |          | NCREE Dr.Kuo |
-| Kappa_sugg    | Kappa                                    | kappa      |          | NCREE Dr.Kuo |
-| kappa_ref     | reference of kappa (Chang et al. (2016)) | kappa出處    |          | NCREE Dr.Kuo |
-| STA_Lat_Y.NGA | station latitude from NGA database       | 測站緯度 (NGA) |          | NGA資料庫       |
-| STA_Lon_X.NGA | station longitude from NGA database      | 測站經度 (NGA) |          | NGA資料庫       |
+| Column_name   | Description_en                           | 說明                    | 單位(unit) | Note         |
+| :------------ | :--------------------------------------- | :-------------------- | :------- | ------------ |
+| STA_ID        | station id                               | 測站ID                  |          |              |
+| STA_Lon_X     | station longitude                        | 測站經度                  |          | NCREE Dr.Kuo |
+| STA_Lat_Y     | station latitude                         | 測站緯度                  |          | NCREE Dr.Kuo |
+| STA_Elevation | station elevation                        | 測站高程                  | m        | NCREE Dr.Kuo |
+| Vs30_sugg     | suggest Vs30                             | Vs30                  | m/s      | NCREE Dr.Kuo |
+| Vs30_ref      | reference of Vs30:<br>K12: Kuo et al. (2012) and EGDT (measured Vs30),<br>K16: Kuo et al. (2016) (measured Vs30),<br>LT08: Lee and Tsai (2008) (estimated Vs30),<br>AW09: Allen and Wald (2009) (estimated Vs30),<br>na: not available | Vs30出處                |          | NCREE Dr.Kuo |
+| Vs30_class    | 1 for measured Vs30, 0 for infered       | 量測或者推估Vs30，1=量測, 0=推估 |          |              |
+| Z1.0_sugg     | Z1.0                                     | Z1.0                  | m        | NCREE Dr.Kuo |
+| Z1.0_ref      | reference of Z1.0:<br>a: microtremor array method (Kuo et al., 2016),<br>e: EGDT (Kuo et al., 2012),<br>r: Receiver Function,<br>h: HVSR,<br>inf: Inferred from relationship of Vs30 and Z1.0 in Taiwan,<br>na: not available | Z1.0出處                |          | NCREE Dr.Kuo |
+| Kappa_sugg    | Kappa                                    | kappa                 |          | NCREE Dr.Kuo |
+| kappa_ref     | reference of kappa (Chang et al. (2016)) | kappa出處               |          | NCREE Dr.Kuo |
+| STA_Lat_Y.NGA | station latitude from NGA database       | 測站緯度 (NGA)            |          | NGA資料庫       |
+| STA_Lon_X.NGA | station longitude from NGA database      | 測站經度 (NGA)            |          | NGA資料庫       |
 
 ## Columns for Distance metrics
 
@@ -125,7 +125,7 @@
 | DPP             |                                          |                 |          |                               |
 | Cat             | category variable indicating the method used in distance calculation of a particular event.<br>A: All fault attributes are extracted from a preferred finite fault model (see discussions below); randomization of fault attributes is not necessary .<br>B: The strike/dip/rake of preferred fault plane is selected from the available fault plane solutions; random sampling of fault area, fault length, and hypo position on fault are made according to the distributions described in CY2008.<br>C: Fault plane solution is available, but preferred plane is unresolved; in addition to the random sampling of category B,  random selection over the two possible planes (0.5/0.5 weight) is made.<br>D: Fault plane solution is unavailable; fault plane geometry and  faulting mechanism are inferred from historical average; in addition to the randomization of category B,  random sampling of strike (from a uniform distribution between +- 30 degrees of inferred value) and dip (from a uniform distribution between +- 10 degrees of inferred dip)<br>E: Neither fault plane solution nor historical average are available; random samples of mechanism (which is then used to set the dip angle), strike, fault length, fault area, and hypocenter position on fault are made. |                 |          |                               |
 | FW.HW.Indicator | hanging-wall footwall indicator(hw=hanging wall region, fw= footwall region, nu=neutral region, na: not applicable as fault dip is greater than 70, NA= no data.) | 斷層上下盤指標         |          | NGA資料庫                        |
-| hwflag          |                                          |                 |          |                               |
+| hwflag          | hanging-wall flag, 1=hanging-wall, 0=not | 斷層上下盤指標         |          |                               |
 
 ## Columns for Record process
 
