@@ -5,7 +5,7 @@ Taiwan Ground Motion Model and Ground-Motion Database
 # Update note
 
 ##SSHAC_GM_v4_20161224
-* using new earthquake catalog (SSHAC_Catalog_final.TXT, 20161222)11, reselec fault plane from focal mechanism, recalculate distanace metric(by Brian Chiou).t
+* using new earthquake catalog (SSHAC_Catalog_final.TXT, 20161222), reselect fault plane from focal mechanism, recalculate distanace metric(by Brian Chiou).
 * reorganize columns, only keep suggested column for each variable. 
 see [SSHAC_GM_v4_20161224_document.md](doc/SSHAC_GM_v4_20161224_document.md) for newest column documnetation.
 
