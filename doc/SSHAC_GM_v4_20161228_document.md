@@ -30,8 +30,8 @@
 | Fault.type   | mechanism base on rake angle<br>SS=Strike‐Slip,<br>N=Normal,<br>R=Reverse,<br>RO=Reverse‐Oblique,<br>NO=Normal‐Oblique | 斷層機制                                     |          |                                    |
 | eq.type      | earthquake type classification base on zoning using new subduction zone model. (GMC_EQ_Classification_20160914.html) | 地震類型                                     |          |                                    |
 | eq.type.SSC  | earthquake type classification base on SSC's earthquake activity rate calculation (a, b value in G-R law). ( scheme_B_Mmin_3.0_all_20160711_plot_wflt.xlsx) | 地震類型, SSC地震活動分析                          |          |                                    |
-|              | applies to all instruments whose trigger level (TL1) is 4 gal |                                          |          |                                    |
-|              | applies to the NanoTech instrument whose trigger level (TL2) is 2gal |                                          |          |                                    |
+| Rmax1        | applies to all instruments whose trigger level (TL1) is 4 gal |                                          |          |                                    |
+| Rmax2        | applies to the NanoTech instrument whose trigger level (TL2) is 2gal |                                          |          |                                    |
 
 ## Columns for Station related information
 
