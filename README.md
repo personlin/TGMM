@@ -4,6 +4,10 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+##SSHAC_GM_v4_20161228
+* add event type classification "eq.type.SSC" from SSC's eq activity rate calculation result. 
+see [SSHAC_GM_v4_20161228_document.md](doc/SSHAC_GM_v4_20161228_document.md) for newest column documnetation.
+
 ##SSHAC_GM_v4_20161224
 * using new earthquake catalog (SSHAC_Catalog_final.TXT, 20161222), reselect fault plane from focal mechanism, recalculate distanace metric(by Brian Chiou).
 * reorganize columns, only keep suggested column for each variable. 
