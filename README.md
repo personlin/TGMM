@@ -4,14 +4,54 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V4_20170111
+
+- add earthquake flag column from NCREE.
+- add Mw_source column.
+
+| flag | type                   |
+| :--- | :--------------------- |
+| 0    | Mainshock              |
+| 1    | fore- and after- shock |
+
+| flag_sub | type                                     |
+| :------- | :--------------------------------------- |
+| 0        | Shallow or Deep Crustal Earthquake       |
+| 1        | Beneath Ryukyu Interface Crustal Earthquake |
+| 2        | Beneath Маnilа Interface Crustal Earthquake |
+| 3        | In Front of Ryukyu Trench Earthquake     |
+| 4        | In Front of Маnilа Trench Earthquake     |
+| 5        | Ryukyu Intraslab Earthquake              |
+| 6        | Маnilа Intraslab Earthquake              |
+
+| flag_crustal_type | type                       |
+| :---------------- | :------------------------- |
+| 0                 | Other Earthquake           |
+| 1                 | Shallow Crustal Earthquake |
+| 2                 | Deep Crustal Earthquake    |
+| 3                 | Shallow Oceanic Earthquake |
+| 4                 | Deep Oceanic Earthquake    |
+
+| flag_cmp | type                   |
+| :--- | :--------------------- |
+| 0    | Taiwan Region  |
+| 1    | Pacific Region|
+| 2    | China Region|
+
+| flag_feq | type                   |
+| :--- | :--------------------- |
+| 0    | Non-fault earthquake  |
+| 1    | Fault earthquake|
+
 ##SSHAC_GM_v4_20161228
+
 * add event type classification "eq.type.SSC" from SSC's eq activity rate calculation result. 
-see [SSHAC_GM_v4_20161228_document.md](doc/SSHAC_GM_v4_20161228_document.md) for newest column documnetation.
+  see [SSHAC_GM_v4_20161228_document.md](doc/SSHAC_GM_v4_20161228_document.md) for newest column documnetation.
 
 ##SSHAC_GM_v4_20161224
 * using new earthquake catalog (SSHAC_Catalog_final.TXT, 20161222), reselect fault plane from focal mechanism, recalculate distanace metric(by Brian Chiou).
 * reorganize columns, only keep suggested column for each variable. 
-see [SSHAC_GM_v4_20161224_document.md](doc/SSHAC_GM_v4_20161224_document.md) for newest column documnetation.
+  see [SSHAC_GM_v4_20161224_document.md](doc/SSHAC_GM_v4_20161224_document.md) for newest column documnetation.
 
 ##TNGA_v3_20161014a
 
