@@ -4,6 +4,10 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V4_20170117a
+
+- fixed the duplication of site database with STA_ID=TAP105. (previous flatfile will have two Vs30 and Z1.0 values of TAP105 station)
+
 ## SSHAC_GM_V4_20170117
 
 - update earthquake flag column from NCREE to version 20171113.
