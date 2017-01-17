@@ -4,15 +4,20 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V4_20170117
+
+- update earthquake flag column from NCREE to version 20171113.
+
+
 ## SSHAC_GM_V4_20170111
 
 - add earthquake flag column from NCREE.
 - add Mw_source column.
 
-| flag | type                   |
-| :--- | :--------------------- |
-| 0    | Mainshock              |
-| 1    | fore- and after- shock |
+| flag | type                                     |
+| :--- | :--------------------------------------- |
+| 0    | Mainshock                                |
+| !=0  | fore- and after- shock (EQID from eq.catalog indicate the EQID of foreshock or aftershock) |
 
 | flag_sub | type                                     |
 | :------- | :--------------------------------------- |
@@ -32,16 +37,16 @@ Taiwan Ground Motion Model and Ground-Motion Database
 | 3                 | Shallow Oceanic Earthquake |
 | 4                 | Deep Oceanic Earthquake    |
 
-| flag_cmp | type                   |
-| :--- | :--------------------- |
-| 0    | Taiwan Region  |
-| 1    | Pacific Region|
-| 2    | China Region|
+| flag_cmp | type           |
+| :------- | :------------- |
+| 0        | Taiwan Region  |
+| 1        | Pacific Region |
+| 2        | China Region   |
 
-| flag_feq | type                   |
-| :--- | :--------------------- |
-| 0    | Non-fault earthquake  |
-| 1    | Fault earthquake|
+| flag_feq | type                 |
+| :------- | :------------------- |
+| 0        | Non-fault earthquake |
+| 1        | Fault earthquake     |
 
 ##SSHAC_GM_v4_20161228
 
