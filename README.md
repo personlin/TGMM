@@ -4,6 +4,10 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V4_20170120
+
+- add column "eq.type.crust" for "eq.type" = "shallow crustal" or "deep crustal"
+
 ## SSHAC_GM_V4_20170117a
 
 - fixed the duplication of site database with STA_ID=TAP105. (previous flatfile will have two Vs30 and Z1.0 values of TAP105 station)
