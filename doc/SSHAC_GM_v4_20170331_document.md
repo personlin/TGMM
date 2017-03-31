@@ -1,13 +1,14 @@
-# Document of the version 4 (20170111) flatfile
+# Document of the version 4 (20170331) flatfile
 
 ## Columns for IDs
 
-| Column_name | Description_en                  | 說明                     | 單位(unit) | Note         |
-| :---------- | :------------------------------ | :--------------------- | :------- | ------------ |
-| EQSN        | SSHAC GMC GMC database event id | SSHAC GMC database地震ID |          | SSHAC GMC資料庫 |
-| EQ_ID       | eq id using timestamp           | 地震ID使用時間               |          |              |
-| Pfile       | eq id (pfile name from CWB)     | 地震ID(氣象局pfile名)        |          | CWB          |
-| file.id     | data id (file from CWB)         | 資料ID(氣象局檔名)            |          | CWB          |
+| Column_name  | Description_en                    | 說明                     | 單位(unit) | Note             |
+| :----------- | :-------------------------------- | :--------------------- | :------- | ---------------- |
+| EQSN         | SSHAC GMC GMC database event id   | SSHAC GMC database地震ID |          | SSHAC GMC資料庫     |
+| EQ_ID        | eq id using timestamp             | 地震ID使用時間               |          |                  |
+| Pfile        | eq id (pfile name from CWB)       | 地震ID(氣象局pfile名)        |          | CWB              |
+| ID.eqcatalog | eq id from SSC earthquake catalog | 地震ID(SSC地震目錄)          |          | SSHAC SSC 地震目錄資料 |
+| file.id      | data id (file from CWB)           | 資料ID(氣象局檔名)            |          | CWB              |
 
 
 ## Columns for Earthquake related information
@@ -38,6 +39,7 @@
 | flag_feq          | flag for earthquake relate to known active fault. <br> 0=Non-fault earthquake<br> 1=Fault earthquake | 斷層地震標記                                   |          |                                    |
 | Rmax1             | applies to all instruments whose trigger level (TL1) is 4 gal |                                          |          |                                    |
 | Rmax2             | applies to the NanoTech instrument whose trigger level (TL2) is 2gal |                                          |          |                                    |
+| within30          | flag for crustal earthquake (both shallow and deep) is not more than 30km from the coastline of Taiwan.<br>1=within 30km buffer zone, 0=outside buffer zone. | 地震位於海岸線30公里buffer範圍內                     |          |                                    |
 
 ## Columns for Station related information
 

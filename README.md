@@ -4,6 +4,12 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V4_20170331
+
+- update site database to version 6.0
+- add column ID.eqcatalog for SSC eqid.
+- add column within30 for the flag of earthquake within 30km buffer zone.
+
 ## SSHAC_GM_V4_20170120
 
 - add column "eq.type.crust" for "eq.type" = "shallow crustal" or "deep crustal"
