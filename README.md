@@ -4,6 +4,17 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V6_20170712
+
+- update site database to version 7.0
+- add SMART1 data from NGA-West2
+- add BATS data from NGA-Sub
+- add 2016 Meinong earthquake and 20160531 north Taiwan deep intraslab earthquake data
+
+## SSHAC_GM_V5_20170501
+
+- add NPP data
+
 ## SSHAC_GM_V4_20170331
 
 - update site database to version 6.0
