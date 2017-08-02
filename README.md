@@ -4,6 +4,26 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V7_20170802
+
+- Fault rupture models for the two new events occurred in 2016 (the Meinong event, Category A, and the deep intra-slab event, Category B)
+- 21 new finite fault models obtained by Dr. Lee of IES.
+- Subduction earthquake source scaling relations recommended by the PEER NGA-Sub project. This update does not affect Category A events or crustal events.
+- Path data for new entries for the two 2016 events and updated fault rupture models.
+- Path data for BATS subduction zone records.
+- add ChiChi recordings (recorded by IES’s MTN network).
+
+## SSHAC_GM_V6_20170712
+
+- update site database to version 7.0
+- add SMART1 data from NGA-West2
+- add BATS data from NGA-Sub
+- add 2016 Meinong earthquake and 20160531 north Taiwan deep intraslab earthquake data
+
+## SSHAC_GM_V5_20170501
+
+- add NPP data
+
 ## SSHAC_GM_V4_20170331
 
 - update site database to version 6.0
