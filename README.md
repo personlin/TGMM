@@ -4,6 +4,14 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V7_20170919
+
+- [#21](/../../issues/21) Update the Vs30 of MTN stations in Chi-Chi event. (9 records)
+
+## SSHAC_GM_V7_20170918
+
+- Fix  [#20](/../../issues/20) EQ: 1995_0223_0519_03 (Pfile:02230518.P95) (EQSN:038) only have 21 records
+
 ## SSHAC_GM_V7_20170802
 
 - Fault rupture models for the two new events occurred in 2016 (the Meinong event, Category A, and the deep intra-slab event, Category B)
