@@ -4,6 +4,31 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+<<<<<<< HEAD
+=======
+## SSHAC_GM_V9_20180620
+
+- update 2006 Pingtung earthquake Ztor and path (EQSN =239, 240)
+
+## SSHAC_GM_V9_20180411
+
+- update site database to version 7.5
+- remove PGA, Sa ==0 record 14051957.P16.31903600.MNS
+- read Brian dataset (2017.12.14)
+
+## SSHAC_GM_V8_20180120
+
+- update event classification to event_classification_20170206
+- update distance calculation (sgm.for.Person_20171228.RDS,  CCLD20180105/p4cf.out) (from Brian).
+- update Rmax estimation (Rmax_c_TNGA_Adjusted_2018_01_16_for_Person.RDS) (from Brian).
+- update station information from Dr. Kuo (NCREE) for STA_ID=MTN119.
+- [#22](/../../issues/22) remove two records without NS component time history.
+- [#23](/../../issues/23) remove record with spike on time history.
+- remove duplicated records (34) with same station ID.
+- remove EQID=1(1981_0129_0451_36), STA_ID=SMART1-M11 with SA value = -999.
+- Data number -> 44,600
+
+>>>>>>> refs/remotes/origin/master
 ## SSHAC_GM_V7_20170919
 
 - [#21](/../../issues/21) Update the Vs30 of MTN stations in Chi-Chi event. (9 records)
@@ -89,6 +114,7 @@ Taiwan Ground Motion Model and Ground-Motion Database
 | :------- | :------------------- |
 | 0        | Non-fault earthquake |
 | 1        | Fault earthquake     |
+
 
 ##SSHAC_GM_v4_20161228
 
