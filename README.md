@@ -4,7 +4,6 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
-<<<<<<< HEAD
 =======
 ## SSHAC_GM_V9_20180620
 
@@ -28,7 +27,6 @@ Taiwan Ground Motion Model and Ground-Motion Database
 - remove EQID=1(1981_0129_0451_36), STA_ID=SMART1-M11 with SA value = -999.
 - Data number -> 44,600
 
->>>>>>> refs/remotes/origin/master
 ## SSHAC_GM_V7_20170919
 
 - [#21](/../../issues/21) Update the Vs30 of MTN stations in Chi-Chi event. (9 records)
