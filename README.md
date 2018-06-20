@@ -4,6 +4,16 @@ Taiwan Ground Motion Model and Ground-Motion Database
 
 # Update note
 
+## SSHAC_GM_V9_20180620
+
+- update 2006 Pingtung earthquake Ztor and path (EQSN =239, 240)
+
+## SSHAC_GM_V9_20180411
+
+- update site database to version 7.5
+- remove PGA, Sa ==0 record 14051957.P16.31903600.MNS
+- read Brian dataset (2017.12.14)
+
 ## SSHAC_GM_V8_20180120
 
 - update event classification to event_classification_20170206
