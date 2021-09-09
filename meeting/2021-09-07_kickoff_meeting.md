@@ -4,14 +4,14 @@
 
 ## 出席人員
 
-林柏伸 Po-Shen Lin
-林哲民 Che-Min Lin
-高嘉謙 Jia-cian Gao
-許喬筑 Chiao-Chu Hsu
-陳俊德 Chun-Te Chen
-黃雋彥 Jyun_Yan Huang
-趙書賢 Shu-Hsien Chao
-顏銀桐 Yin-Tung Yen 
+林柏伸 Po-Shen Lin, 
+林哲民 Che-Min Lin, 
+高嘉謙 Jia-cian Gao, 
+許喬筑 Chiao-Chu Hsu, 
+陳俊德 Chun-Te Chen, 
+黃雋彥 Jyun_Yan Huang, 
+趙書賢 Shu-Hsien Chao, 
+顏銀桐 Yin-Tung Yen
 
 ## 討論內容
 
